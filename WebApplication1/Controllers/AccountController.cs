@@ -10,6 +10,16 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebApplication1.Models;
 
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Auth.OAuth2.Flows;
+using Google.Apis.Auth.OAuth2.Mvc;
+using Google.Apis.Drive.v2;
+using Google.Apis.Util.Store;
+using Google.Contacts;
+using Google.GData.Contacts;
+using Google.GData.Client;
+using Google.GData.Extensions;
+
 namespace WebApplication1.Controllers
 {
     [Authorize]

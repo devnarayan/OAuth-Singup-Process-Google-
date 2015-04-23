@@ -58,6 +58,7 @@ namespace WebApplication1
             //   appId: "",
             //   appSecret: "");
 
+
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
                 ClientId = "68942521982-f9h411ncn58sg54s75jctuckes2ibevo.apps.googleusercontent.com",
